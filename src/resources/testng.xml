@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationExerciseTestSuite">
+    <test name="BasicTests">
+        <classes>
+            <class name="com.example.automationexercise.RegisterUserTest"/>
+            <class name="com.example.automationexercise.LoginTest"/>
+            <class name="com.example.automationexercise.SearchProductTest"/>
+            <class name="com.example.automationexercise.ContactUsFormTest"/>
+        </classes>
+    </test>
+</suite>
